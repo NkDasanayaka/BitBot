@@ -4,7 +4,7 @@ client = genai.Client(api_key="AQ.Ab8RN6KQYHBb9jRGW6gK01FbDUotOzW-dhj32Cqf6kanx4
 response = client.generate(text="Hello, how are you?", temperature=0.2)
 
 
-chat = client.chat.create(model = "gemini-flash-latest", )
+chat = client.chat.create(model = "gemini-2.5-flash", )
 
 while True:
     user_input = input("You: ")
